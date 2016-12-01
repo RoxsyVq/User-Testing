@@ -1,0 +1,354 @@
+
+*{
+    font-family: 'Lato';
+    font-size: 14px;
+}
+h1, h2, h3, p{
+    margin: 0 !important;
+
+}
+.text-center{
+    text-align: center;
+}
+header{
+   background: url("../image/large.jpg") no-repeat center;
+   background-position: cover;
+    background-color: black;
+    width: 100%;
+    min-height: 680px;
+    height:60px;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+
+}
+.hero{
+    top:0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    min-height: 680px;
+}
+.contenido{
+    margin:0 3%;
+}
+.servicios{
+    padding-bottom: 4%;
+    border-bottom: grey;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.82);
+}
+.servicios h2{
+    color: #58A5FF;
+    padding: 6%;
+}
+.servicios h4{
+    color: #8AA2B7;
+    padding: 4% 29%;
+}
+.servicios p{
+    color: grey;
+    padding: 1% 10%;
+}
+.circle-button {
+    box-shadow: 5px 7px 25px rgba(136, 136, 136, 0.34);
+    color: #58A5FF;
+    background-color: #71216;
+    margin: auto;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    border: none;
+}
+
+
+.icon{
+    font-size: 30px;
+    margin: auto;
+}
+.separador{
+    position: absolute;
+    padding-top: 1%
+}
+
+.video{
+    margin-top: 5%;
+    padding-bottom: 5%;
+    border-bottom: grey;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.82);
+    text-align: center;
+}
+.video p{
+    padding: 1%;
+    text-align: left;
+}
+
+.video h2{
+    color: #58A5FF;
+   padding-left: 17%;
+    float: left;
+    clear: left;
+
+}
+.video .video-titulo{
+    padding: 2.5% 0;
+    text-align: left;
+
+}
+
+.video img{
+    width: 34%;
+    padding-left: 1%;
+}
+.video .text-peque{
+    color: #58A5FF;
+}
+
+iframe{
+    width:100%;
+    height: 260px;
+}
+.quiero .fondo{
+    background: url("../image/sec-2.jpg") no-repeat center;
+    background-position: contain;
+    width: 50%;
+    height: 450px;
+}
+.quiero .separador1{
+    position: absolute;
+    top: 87%;
+    left: 92.6%;
+
+
+}
+.quiero .cubierta{
+    top:0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    min-height: 450px;
+   }
+.azul-text{
+    color: #50BDEA;
+    font-size: 18px;
+    padding-top: 4%;
+    padding-left:  6%;
+   }
+.quiero{
+    border-bottom: 1px solid rgba(204, 204, 204, 0.82);
+    margin: auto;
+    text-align: center;
+}
+.quiero h2{
+    padding: 3% 3%;
+    text-align: left;
+}
+.quiero p{
+    padding-left:  6%;
+    text-align: left;
+}
+.quiero ul{
+    padding-left: 9%;
+    text-align: left;
+}
+.uno{
+    top: 15%;
+    left: 95%;
+}
+.dos{
+    top: 40%;
+    left: 95%;
+}
+.tres{
+    top: 65%;
+    left: 95%;
+}
+.icon-want{
+    background-color: #50BDEA;
+    padding: 3%;
+    color: white;
+    position: absolute;
+    border-radius: 50%;
+    font-size: 20px;
+
+}
+.use{
+    padding: 5% 0;
+    margin-top: 2%
+
+}
+.use h2{
+    color: #58A5FF;
+    padding-left: 6%;
+    text-align: center;
+    float: left;
+    clear: left;
+}
+.banner{
+    width: 90%;
+    height: 268px;
+}
+.title-img{
+    width: 34%;
+    padding-left: 1%;
+}
+span{
+    color: #57A4FF;
+}
+
+
+.menu {float: right;}
+
+    .menu ul{
+        list-style: none;
+        font-size: 14px;
+
+    }
+
+        .menu li{
+           display: block;
+           float: left;
+           text-align: center;
+        }
+
+                .menu li a{
+                display: block;
+                color: #fff;
+                text-decoration: none;
+                height: 60px;
+                line-height: 60px;
+                padding: 0 26px;
+            }
+            .menu li a:hover{
+                background: rgb(72, 106, 158);
+                color: #fff;
+                border-radius: 12px
+            }
+
+  /
+    .nav{
+        display: none;
+        background: url(../image/nav.png) no-repeat center center;
+        float: right;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        right: 0;
+        top:0;
+        opacity: .6;
+
+    }
+                .nav{
+            opacity: 1;
+        }
+    .frase{
+        color: white;
+        font-size: 40px;
+        padding: 15% 20%;
+        text-align: center;
+
+    }
+    .header-banner{
+        position: absolute;
+        top: 83.5%;
+        background-color: rgba(82, 141, 210, 0.6);
+        width: 100%;
+        padding:2.5%;
+
+    }
+    .texto{
+    text-align: right;
+    color: white
+    }
+    button{
+        border: white 2px solid;
+        background: transparent;
+        font-size: 18px;
+        padding: 1%;
+        color: white;
+        border-radius: 8px;
+        top: 12%
+    }
+    .last{
+        background-color: #74A3DB;
+        padding: 3% 0;
+    }
+    .text-bluebottom{
+     text-align: left;
+     margin-top: 1%;
+    color: white
+    }
+    .mr{
+        float: right;
+        clear: right;
+    }
+    .pruebalo{
+
+        background: transparent;
+        font-size: 18px;
+        padding: 1%;
+        color: white;
+        border-radius: 8px;
+        top: 12%;
+        width:25%;
+    }
+    footer{
+background-color:#2A3541;
+width:100%;
+padding: 3%;
+}
+.margin-l{
+    margin-left: 5%
+}
+footer p{
+margin-top:6%;
+color:white;
+margin-left:8%;
+}
+.copyright{
+margin-top:15%;
+margin-left:55%;
+}
+.blu{
+float: right;
+}
+.icono{
+font-size:35px;
+
+color:#2E5B8F;
+}
+
+.contactanos{
+background-image:url(../image/large.jpg);
+background-size:cover;
+width:100%;
+height:667px;
+}
+
+/*...........................contact*/
+.background-contact{
+    background: url("../image/large.jpg") no-repeat center;
+    background-color: black;
+    width: 100%;
+    min-height: 680px;
+    height: 30px;
+    text-align: center;
+    padding-top:2%;
+}
+
+
+    h1{
+        font-size: 18px;
+    }
+
+    /*.......................................*/
+
+    .icon-want{
+        display: none;
+    }
+    .separador{
+        display: none;
+    }
+ /* mostramos #nav-mobile */
